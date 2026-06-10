@@ -1,0 +1,10 @@
+# 录制工具（必需）
+dxcam>=0.0.8
+inputs>=0.5
+opencv-python>=4.8
+numpy>=1.26
+pynput>=1.7
+
+# 推理（虚拟手柄，需要 Visual Studio Build Tools + ViGEmBus 驱动）
+# vgamepad>=0.1.0
+

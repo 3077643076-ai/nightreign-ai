@@ -1,0 +1,25 @@
+# 录制数据 - 体积巨大
+data/
+
+# 模型权重
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+.DS_Store
+data/
+checkpoints/
+__pycache__/
+*.pyc
