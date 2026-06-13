@@ -1,8 +1,14 @@
-# 录制数据 - 体积巨大
+# 录制数据
 data/
 
 # 模型权重
 checkpoints/
+
+# 预处理数据
+preprocessed/
+
+# 大佬视频（体积大）
+expert_videos/
 
 # Python
 __pycache__/
@@ -19,7 +25,3 @@ __pycache__/
 # 系统文件
 Thumbs.db
 .DS_Store
-data/
-checkpoints/
-__pycache__/
-*.pyc
