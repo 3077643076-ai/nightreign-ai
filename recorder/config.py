@@ -17,7 +17,7 @@ HOTKEY_START = "f8"
 HOTKEY_STOP = "f9"
 
 # 手柄索引 (第一个手柄 = 0)
-GAMEPAD_INDEX = 0
+GAMEPAD_INDEX = 3  # Xbox 手柄被 Steam 挤到索引 3
 
 # 截图参数
 IMAGE_FORMAT = "jpg"          # jpg / png

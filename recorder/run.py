@@ -10,7 +10,58 @@ from .recorder import Recorder
 from . import config
 
 
+class RecorderOverlay:
+    """录制悬浮窗：红色=录着，灰色=没录。通过标志位避免线程问题。"""
+
+    def __init__(self):
+        self._pending = None  # None=不用更新, True=开, False=关
+        self._running = False
+        try:
+            import tkinter as tk
+            self._root = tk.Tk()
+            self._root.title("Recorder")
+            self._root.overrideredirect(True)
+            self._root.attributes("-topmost", True)
+            self._root.attributes("-alpha", 0.75)
+            w, h = 160, 36
+            sw = self._root.winfo_screenwidth()
+            self._root.geometry(f"{w}x{h}+{sw - w - 20}+{70}")
+            self._label = tk.Label(
+                self._root, text="REC: OFF", font=("Microsoft YaHei", 12, "bold"),
+                fg="white", bg="#333333", padx=12, pady=4,
+            )
+            self._label.pack(fill="both", expand=True)
+            self._root.update()
+            self._running = True
+        except Exception:
+            self._root = None
+
+    def request_recording(self, on: bool):
+        """线程安全：设置标志位，主循环轮询更新。"""
+        self._pending = on
+
+    def poll(self):
+        """主线程调用：处理待更新。"""
+        if self._root is None or not self._running or self._pending is None:
+            return
+        if self._pending:
+            self._label.config(text="REC: ON", bg="#cc0000")
+        else:
+            self._label.config(text="REC: OFF", bg="#333333")
+        self._root.update()
+        self._pending = None
+
+    def destroy(self):
+        self._running = False
+        if self._root is not None:
+            try:
+                self._root.destroy()
+            except Exception:
+                pass
+
+
 def main():
+    overlay = RecorderOverlay()
     recorder = Recorder(fps=config.FPS)
     lock = threading.Lock()
 
@@ -24,12 +75,14 @@ def main():
             with lock:
                 if not recorder._running:
                     recorder.start()
+                    overlay.request_recording(True)
 
         elif name == config.HOTKEY_STOP:
             with lock:
                 if recorder._running:
                     recorder.stop()
                     recorder.flush()
+                    overlay.request_recording(False)
 
     print("=" * 50)
     print("  Game AI Recorder — 录制手柄 + 截图")
@@ -48,13 +101,17 @@ def main():
         if recorder._running:
             recorder.stop()
             recorder.flush()
+        overlay.destroy()
         listener.stop()
         sys.exit(0)
 
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
 
-    listener.join()
+    import time
+    while listener.is_alive():
+        overlay.poll()
+        time.sleep(0.1)
 
 
 if __name__ == "__main__":

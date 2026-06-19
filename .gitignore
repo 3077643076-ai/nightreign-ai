@@ -25,3 +25,24 @@ __pycache__/
 # 系统文件
 Thumbs.db
 .DS_Store
+
+# 训练/推理日志
+*.log
+
+# 调试截图
+debug/
+debug_hud/
+detector_debug.png
+sample_frame.png
+state_debug.png
+capture.png
+capture_top_left.png
+capture_window.png
+calibrate.png
+marked_bars.png
+hp_bar_crop.png
+hp_roi_check.png
+hp_roi_debug.png
+
+# Claude本地配置
+.claude/

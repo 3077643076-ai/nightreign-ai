@@ -1,0 +1,2429 @@
+{
+  "GeneralSettings": {
+    "Usb2SnesServer": "ws://localhost",
+    "Usb2SnesPort": "8080"
+  },
+  "RetroSpyConfig": {
+    "ControllerType": 0,
+    "ComPortName": null,
+    "NES": {
+      "ControllerType": 0,
+      "ButtonMappings": [
+        {
+          "ButtonType": 1,
+          "MappedButtonType": 1,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 0,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 2,
+          "MappedButtonType": 2,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 1,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 3,
+          "MappedButtonType": 3,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 2,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 4,
+          "MappedButtonType": 4,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 3,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 6,
+          "MappedButtonType": 6,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 215,
+            "R": 255,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 4,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 5,
+          "MappedButtonType": 5,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 255,
+            "G": 191,
+            "R": 0,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 5,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 9,
+          "MappedButtonType": 9,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 6,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 10,
+          "MappedButtonType": 10,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 7,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        }
+      ]
+    },
+    "SNES": {
+      "ControllerType": 1,
+      "ButtonMappings": [
+        {
+          "ButtonType": 1,
+          "MappedButtonType": 1,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 0,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 2,
+          "MappedButtonType": 2,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 1,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 3,
+          "MappedButtonType": 3,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 2,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 4,
+          "MappedButtonType": 4,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 3,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 6,
+          "MappedButtonType": 6,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 215,
+            "R": 255,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 4,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 5,
+          "MappedButtonType": 5,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 0,
+            "R": 139,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 5,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 8,
+          "MappedButtonType": 8,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 100,
+            "R": 0,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 6,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 7,
+          "MappedButtonType": 7,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 255,
+            "G": 191,
+            "R": 0,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 7,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 11,
+          "MappedButtonType": 11,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 8,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 12,
+          "MappedButtonType": 12,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 9,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 9,
+          "MappedButtonType": 9,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 10,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 10,
+          "MappedButtonType": 10,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 11,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        }
+      ]
+    },
+    "Genesis": {
+      "ControllerType": 2,
+      "ButtonMappings": [
+        {
+          "ButtonType": 1,
+          "MappedButtonType": 1,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 0,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 2,
+          "MappedButtonType": 2,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 1,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 3,
+          "MappedButtonType": 3,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 2,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 4,
+          "MappedButtonType": 4,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 3,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 5,
+          "MappedButtonType": 5,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 4,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 6,
+          "MappedButtonType": 6,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 5,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 13,
+          "MappedButtonType": 13,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 6,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 7,
+          "MappedButtonType": 7,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 79,
+            "G": 79,
+            "R": 47,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 7,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 8,
+          "MappedButtonType": 8,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 79,
+            "G": 79,
+            "R": 47,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 8,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 14,
+          "MappedButtonType": 14,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 79,
+            "G": 79,
+            "R": 47,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 9,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 10,
+          "MappedButtonType": 10,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 10,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 15,
+          "MappedButtonType": 15,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 11,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        }
+      ]
+    },
+    "Playstation": {
+      "ControllerType": 3,
+      "ButtonMappings": [
+        {
+          "ButtonType": 1,
+          "MappedButtonType": 1,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 0,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 2,
+          "MappedButtonType": 2,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 1,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 3,
+          "MappedButtonType": 3,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 2,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 4,
+          "MappedButtonType": 4,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 245,
+            "G": 245,
+            "R": 245,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 3,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 19,
+          "MappedButtonType": 19,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 237,
+            "G": 149,
+            "R": 100,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 4,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 20,
+          "MappedButtonType": 20,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 92,
+            "G": 92,
+            "R": 205,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 5,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 21,
+          "MappedButtonType": 21,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 203,
+            "G": 192,
+            "R": 255,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 6,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 22,
+          "MappedButtonType": 22,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 128,
+            "G": 128,
+            "R": 0,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 7,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 23,
+          "MappedButtonType": 23,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 8,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 25,
+          "MappedButtonType": 25,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 9,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 24,
+          "MappedButtonType": 24,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 10,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 26,
+          "MappedButtonType": 26,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 11,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 9,
+          "MappedButtonType": 9,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 12,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 10,
+          "MappedButtonType": 10,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 13,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        }
+      ]
+    }
+  },
+  "MisterConfig": {
+    "ButtonMappingSets": {
+      "NES": {
+        "ButtonMappings": [
+          {
+            "ButtonType": 1,
+            "MappedButtonType": 1,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 0,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 2,
+            "MappedButtonType": 2,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 1,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 3,
+            "MappedButtonType": 3,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 2,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 4,
+            "MappedButtonType": 4,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 3,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 6,
+            "MappedButtonType": 27,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 215,
+              "R": 255,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 4,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 5,
+            "MappedButtonType": 28,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 255,
+              "G": 191,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 5,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 9,
+            "MappedButtonType": 35,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 6,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 10,
+            "MappedButtonType": 36,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 7,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          }
+        ]
+      },
+      "SNES": {
+        "ButtonMappings": [
+          {
+            "ButtonType": 1,
+            "MappedButtonType": 1,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 0,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 2,
+            "MappedButtonType": 2,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 1,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 3,
+            "MappedButtonType": 3,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 2,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 4,
+            "MappedButtonType": 4,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 3,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 6,
+            "MappedButtonType": 28,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 215,
+              "R": 255,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 4,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 5,
+            "MappedButtonType": 29,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 0,
+              "R": 139,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 5,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 8,
+            "MappedButtonType": 27,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 100,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 6,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 7,
+            "MappedButtonType": 30,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 255,
+              "G": 191,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 7,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 11,
+            "MappedButtonType": 31,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 8,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 12,
+            "MappedButtonType": 32,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 9,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 9,
+            "MappedButtonType": 35,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 10,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 10,
+            "MappedButtonType": 36,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 11,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          }
+        ]
+      },
+      "Genesis": {
+        "ButtonMappings": [
+          {
+            "ButtonType": 1,
+            "MappedButtonType": 1,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 0,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 2,
+            "MappedButtonType": 2,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 1,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 3,
+            "MappedButtonType": 3,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 2,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 4,
+            "MappedButtonType": 4,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 3,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 5,
+            "MappedButtonType": 28,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 4,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 6,
+            "MappedButtonType": 29,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 5,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 13,
+            "MappedButtonType": 31,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 6,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 7,
+            "MappedButtonType": 27,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 79,
+              "G": 79,
+              "R": 47,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 7,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 8,
+            "MappedButtonType": 30,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 79,
+              "G": 79,
+              "R": 47,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 8,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 14,
+            "MappedButtonType": 32,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 79,
+              "G": 79,
+              "R": 47,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 9,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 10,
+            "MappedButtonType": 36,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 10,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 15,
+            "MappedButtonType": 0,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 11,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          }
+        ]
+      },
+      "NeoGeo": {
+        "ButtonMappings": [
+          {
+            "ButtonType": 1,
+            "MappedButtonType": 1,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 0,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 2,
+            "MappedButtonType": 2,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 1,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 3,
+            "MappedButtonType": 3,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 2,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 4,
+            "MappedButtonType": 4,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 3,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 5,
+            "MappedButtonType": 28,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 0,
+              "R": 139,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 4,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 6,
+            "MappedButtonType": 27,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 215,
+              "R": 255,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 5,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 13,
+            "MappedButtonType": 30,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 0,
+              "G": 100,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 6,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 16,
+            "MappedButtonType": 32,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 255,
+              "G": 191,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 7,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 9,
+            "MappedButtonType": 35,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 8,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 10,
+            "MappedButtonType": 36,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 9,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          }
+        ]
+      },
+      "Playstation": {
+        "ButtonMappings": [
+          {
+            "ButtonType": 1,
+            "MappedButtonType": 1,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 0,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 2,
+            "MappedButtonType": 2,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 1,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 3,
+            "MappedButtonType": 3,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 2,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 4,
+            "MappedButtonType": 4,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 3,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 19,
+            "MappedButtonType": 28,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 237,
+              "G": 149,
+              "R": 100,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 4,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 20,
+            "MappedButtonType": 29,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 92,
+              "G": 92,
+              "R": 205,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 5,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 21,
+            "MappedButtonType": 27,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 203,
+              "G": 192,
+              "R": 255,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 6,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 22,
+            "MappedButtonType": 30,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 128,
+              "G": 128,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 7,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 23,
+            "MappedButtonType": 31,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 8,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 25,
+            "MappedButtonType": 32,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 9,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 24,
+            "MappedButtonType": 33,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 10,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 26,
+            "MappedButtonType": 34,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 192,
+              "G": 192,
+              "R": 192,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 11,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 9,
+            "MappedButtonType": 35,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 12,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 10,
+            "MappedButtonType": 36,
+            "MappedKey": 0,
+            "MappedMouseButton": 0,
+            "MappingType": 0,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 13,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          }
+        ]
+      }
+    },
+    "Hostname": null,
+    "Username": "root",
+    "Password": "1",
+    "Controller": 0,
+    "Style": 1,
+    "UseLStickForDpad": false
+  },
+  "Usb2SnesConfig": {
+    "ButtonMappingSet": {
+      "ButtonMappings": [
+        {
+          "ButtonType": 1,
+          "MappedButtonType": 1,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 144,
+            "G": 238,
+            "R": 144,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 0,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 2,
+          "MappedButtonType": 2,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 144,
+            "G": 238,
+            "R": 144,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 1,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 3,
+          "MappedButtonType": 3,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 144,
+            "G": 238,
+            "R": 144,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 2,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 4,
+          "MappedButtonType": 4,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 144,
+            "G": 238,
+            "R": 144,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 3,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 6,
+          "MappedButtonType": 6,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 215,
+            "R": 255,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 4,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 5,
+          "MappedButtonType": 5,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 0,
+            "R": 139,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 5,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 8,
+          "MappedButtonType": 8,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 0,
+            "G": 100,
+            "R": 0,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 6,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 7,
+          "MappedButtonType": 7,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 255,
+            "G": 191,
+            "R": 0,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 7,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 11,
+          "MappedButtonType": 11,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 8,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 12,
+          "MappedButtonType": 12,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 192,
+            "G": 192,
+            "R": 192,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 9,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 9,
+          "MappedButtonType": 9,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 10,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        },
+        {
+          "ButtonType": 10,
+          "MappedButtonType": 10,
+          "MappedKey": 0,
+          "MappedMouseButton": 0,
+          "MappingType": 0,
+          "Color": {
+            "B": 230,
+            "G": 224,
+            "R": 176,
+            "A": 255
+          },
+          "IsVisible": true,
+          "Order": 11,
+          "JoystickHatIndex": -1,
+          "JoystickAxisIndex": -1,
+          "JoystickAxisDirectionIsNegative": false,
+          "MaxFrameDisplay": 0
+        }
+      ]
+    }
+  },
+  "DisplayConfig": {
+    "BackgroundColor": {
+      "B": 32,
+      "G": 32,
+      "R": 32,
+      "A": 0
+    },
+    "DisplayDuration": true,
+    "MinDisplayDuration": 2,
+    "DisplayFrequency": true,
+    "MinDisplayFrequency": 5,
+    "Layout": 0,
+    "DrawIdleLines": true,
+    "Speed": 4.0,
+    "LineLength": 150,
+    "TurnOffLineSpeed": 200.0,
+    "MaxContainers": 0,
+    "EmptyContainerColor": {
+      "B": 213,
+      "G": 239,
+      "R": 255,
+      "A": 255
+    },
+    "IllegalInputColor": {
+      "B": 0,
+      "G": 0,
+      "R": 255,
+      "A": 255
+    },
+    "DisplayIllegalInputs": false
+  },
+  "CurrentInputSource": "spy",
+  "GamepadConfigs": [
+    {
+      "Id": "keyboard",
+      "Style": 1,
+      "UseLStickForDpad": false,
+      "ButtonMappingSet": {
+        "ButtonMappings": [
+          {
+            "ButtonType": 1,
+            "MappedButtonType": 0,
+            "MappedKey": 38,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 0,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 2,
+            "MappedButtonType": 0,
+            "MappedKey": 40,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 1,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 3,
+            "MappedButtonType": 0,
+            "MappedKey": 37,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 2,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 4,
+            "MappedButtonType": 0,
+            "MappedKey": 39,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 245,
+              "G": 245,
+              "R": 245,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 3,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 5,
+            "MappedButtonType": 0,
+            "MappedKey": 65,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 255,
+              "G": 191,
+              "R": 0,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 4,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 6,
+            "MappedButtonType": 0,
+            "MappedKey": 83,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 0,
+              "G": 215,
+              "R": 255,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 5,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 9,
+            "MappedButtonType": 0,
+            "MappedKey": 219,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 6,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          },
+          {
+            "ButtonType": 10,
+            "MappedButtonType": 0,
+            "MappedKey": 221,
+            "MappedMouseButton": 0,
+            "MappingType": 1,
+            "Color": {
+              "B": 230,
+              "G": 224,
+              "R": 176,
+              "A": 255
+            },
+            "IsVisible": true,
+            "Order": 7,
+            "JoystickHatIndex": -1,
+            "JoystickAxisIndex": -1,
+            "JoystickAxisDirectionIsNegative": false,
+            "MaxFrameDisplay": 0
+          }
+        ]
+      },
+      "IsKeyboard": true
+    }
+  ],
+  "JoystickConfigs": []
+}
