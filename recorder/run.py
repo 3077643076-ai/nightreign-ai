@@ -9,6 +9,14 @@ from pynput import keyboard
 from .recorder import Recorder
 from . import config
 
+# 尝试导入内存读取器（仅在游戏运行时可用）
+_MEMORY_AVAILABLE = False
+try:
+    from memory_reader import MemoryReader
+    _MEMORY_AVAILABLE = True
+except ImportError:
+    pass
+
 
 class RecorderOverlay:
     """录制悬浮窗：红色=录着，灰色=没录。通过标志位避免线程问题。"""
@@ -62,7 +70,18 @@ class RecorderOverlay:
 
 def main():
     overlay = RecorderOverlay()
-    recorder = Recorder(fps=config.FPS)
+
+    # 尝试连接游戏内存（训练时用，推理不需要）
+    game_state_provider = None
+    if _MEMORY_AVAILABLE:
+        mr = MemoryReader()
+        if mr.open():
+            game_state_provider = mr.read
+            print("[REC] 内存读取已启用 → HP/FP/坐标/卢恩 将写入 game_state.jsonl")
+        else:
+            print("[REC] 未检测到游戏进程，仅录制画面+手柄输入")
+
+    recorder = Recorder(fps=config.FPS, game_state_provider=game_state_provider)
     lock = threading.Lock()
 
     def on_press(key):

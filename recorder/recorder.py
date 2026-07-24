@@ -23,10 +23,14 @@ def _save_frame(path: Path, img: np.ndarray):
 class Recorder:
 
     def __init__(self, fps: int = config.FPS,
-                 output_dir: Path | None = None):
+                 output_dir: Path | None = None,
+                 game_state_provider=None):
+        """game_state_provider: 可选，返回 dict 的可调用对象（如 MemoryReader().read）。
+        用于在录制时同步写入 HP/FP/坐标等 ground truth 标签。"""
         self.fps = fps
         self.capture = Capture(target_fps=fps)
         self.input_reader = InputReader()
+        self._game_state_provider = game_state_provider
 
         self._buffer: deque[tuple] = deque(maxlen=600)
         self._lock = threading.Lock()
@@ -38,6 +42,7 @@ class Recorder:
         self.output_dir = output_dir or config.DATA_ROOT / f"session_{st}"
         self.frame_count = 0
         self.start_time: float | None = None
+        self._has_game_state = False
 
     def start(self):
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -125,8 +130,19 @@ class Recorder:
 
             state = self.input_reader.get_state()
 
+            # 读取游戏内存状态（如果可用）
+            game_state = None
+            if self._game_state_provider is not None:
+                try:
+                    gs = self._game_state_provider()
+                    if gs is not None:
+                        game_state = gs
+                        self._has_game_state = True
+                except Exception:
+                    pass
+
             with self._lock:
-                self._buffer.append((img, idx, ts, state))
+                self._buffer.append((img, idx, ts, state, game_state))
                 self.frame_count += 1
 
     # ── 写盘线程（重活全在这：copy + resize + jpeg 编码）─────────
@@ -145,12 +161,14 @@ class Recorder:
         frames_dir = self.output_dir / "frames"
         frames_dir.mkdir(exist_ok=True)
         log_path = self.output_dir / "inputs.jsonl"
+        gs_path = self.output_dir / "game_state.jsonl"
 
         need_resize = config.TARGET_WIDTH and config.TARGET_HEIGHT
         target = (config.TARGET_WIDTH, config.TARGET_HEIGHT) if need_resize else None
 
-        with open(log_path, "a", encoding="utf-8") as log:
-            for img, idx, ts, state in batch:
+        with open(log_path, "a", encoding="utf-8") as log, \
+             open(gs_path, "a", encoding="utf-8") as gs_log:
+            for img, idx, ts, state, game_state in batch:
                 # copy + resize（在写盘线程做，不影响游戏）
                 frame = img.copy()
                 if need_resize and (frame.shape[1], frame.shape[0]) != target:
@@ -162,3 +180,9 @@ class Recorder:
                     "frame": idx, "timestamp": ts,
                     "buttons": state["buttons"], "axes": state["axes"],
                 }, ensure_ascii=False) + "\n")
+
+                if game_state is not None:
+                    gs_log.write(json.dumps({
+                        "frame": idx, "timestamp": ts,
+                        **game_state,
+                    }, ensure_ascii=False) + "\n")
