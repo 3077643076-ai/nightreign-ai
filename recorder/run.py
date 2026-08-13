@@ -2,12 +2,17 @@
 import sys
 import signal
 import threading
-from pathlib import Path
 
 from pynput import keyboard
 
 from .recorder import Recorder
 from . import config
+from .boss_config import load_boss_config
+from .episode_splitter import EpisodeSplitter
+from .keyboard_mouse_reader import KeyboardMouseReader
+from .retry_controller import RetryController
+from .reward import RewardCalculator
+from control.action_executor import ActionExecutor
 
 # 尝试导入内存读取器（仅在游戏运行时可用）
 _MEMORY_AVAILABLE = False
@@ -79,9 +84,31 @@ def main():
             game_state_provider = mr.read
             print("[REC] 内存读取已启用 → HP/FP/坐标/卢恩 将写入 game_state.jsonl")
         else:
-            print("[REC] 未检测到游戏进程，仅录制画面+手柄输入")
+            print("[REC] 未检测到游戏进程，仅录制画面+手柄+键鼠输入")
 
-    recorder = Recorder(fps=config.FPS, game_state_provider=game_state_provider)
+    boss_config = load_boss_config()
+    print(f"[REC] Boss: {boss_config.boss_id} | type={boss_config.boss_type} | difficulty={boss_config.difficulty}")
+
+    keyboard_mouse_reader = KeyboardMouseReader()
+    reward_calculator = RewardCalculator()
+    episode_splitter = EpisodeSplitter(timeout_sec=None)
+    retry_executor = ActionExecutor(
+        dry_run=config.SUPERVISOR_DRY_RUN,
+        confirm_key=config.CONFIRM_KEY,
+        lock_on_key=config.LOCK_ON_KEY,
+    )
+    retry_controller = RetryController(retry_executor, enabled=False)
+
+    recorder = Recorder(
+        fps=config.FPS,
+        game_state_provider=game_state_provider,
+        input_provider=keyboard_mouse_reader,
+        boss_config=boss_config,
+        reward_calculator=reward_calculator,
+        episode_splitter=episode_splitter,
+        retry_controller=retry_controller,
+        auto_episode=True,
+    )
     lock = threading.Lock()
 
     def on_press(key):
@@ -104,7 +131,7 @@ def main():
                     overlay.request_recording(False)
 
     print("=" * 50)
-    print("  Game AI Recorder — 录制手柄 + 截图")
+    print("  Game AI Recorder — 录制截图 + 手柄 + 键鼠 + 可选内存状态")
     print(f"  FPS: {config.FPS}")
     print(f"  输出: {config.DATA_ROOT}")
     print(f"  F8 = 开始录制  |  F9 = 停止并保存")

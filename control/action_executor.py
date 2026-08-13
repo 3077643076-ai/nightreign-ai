@@ -34,9 +34,13 @@ class ActionExecutor:
         if self.dry_run:
             return ActionResult(action, False, f"[动作执行] dry-run：按下 {key}（{label_cn}）")
         normalized = self._to_key(key)
+        if self.press_duration < 0:
+            raise ValueError("press_duration must be >= 0")
         self._keyboard.press(normalized)
-        time.sleep(self.press_duration)
-        self._keyboard.release(normalized)
+        try:
+            time.sleep(self.press_duration)
+        finally:
+            self._keyboard.release(normalized)
         return ActionResult(action, True, f"[动作执行] 已按下 {key}（{label_cn}）")
 
     def _new_keyboard_controller(self):
